@@ -1,4 +1,24 @@
-,Title,Year,Runtime,Rating,Studio,Genre,Director,Cast
+id,Title,Year,Runtime,Rating,Studio,Genre,Director,Cast
+1,No Time To Die,2021,163 mins,PG-13,Metro Goldwyn Mayer,Drama/Thriller/Action,Cary Joji Fukunaga,"Daniel Craig, Rami Malek, Lashana Lynch, Lea Seydoux"
+2,Free Guy,2021,115 mins,PG-13,20th Century Fox,Comedy/Science Fiction/Adventure,Shawn Levy,"Ryan Reynolds, Jodie Comer, Joe Keery,Taika Waititi"
+3,The Bad Guys,2022,100 mins,PG,Dreamworks,Animation/Family/Crime/Comedy/Action/Adventure,Pierre Perifel,"Sam Rockwell, Richard Ayoade, Anthony Ramos, Zazie Beetz"
+4,Top Gun,1986,110 mins,PG,Paramount,Drama/Action/Romance,Tony Scott,"Tom Cruise, Val Kilmer, Kelly McGillis, Anthony Edwards"
+5,Top Gun: Maverick,2022,131 mins,PG-13,"Paramount, Skydance",Drama/Action,Joseph Kosinski,"Tom Cruise, Miles Teller, Val Kilmer, Glen Powell"
+6,Where The Crawdads Sing,2022,126 mins,PG-13,"3000 Pictures, Hello Sunshine Productions",Romance/Drama/Mystery,Olivia Newman,"Daisy Edgar Jones, Taylor John Smith, Harris Dickinson, David Strathairn"
+7,Jaws,1975,124 mins,PG,Universal Pictures,Thriller/Horror/Adventure,Steven Spielberg,"Roy Schneider, Richard Dreyfuss, Robert Shaw, Lorraine Gary"
+8,Barbarian,2022,103 mins,R,"20th Century Fox, Hammerstone Studios",Thriller/Horror/Mystery,Zach Creggor,"Bill Skarsgard, Justin Long, Georgina Campbell, Zach Creggor"
+9,Pearl,2022,102 mins,R,A24,Drama/Horror/Thriller,Ti West,"Mia Goth, David Corensweet, Alistair Sewell, Matthew Sunderland"
+10,Spider-Man: No Way Home,2021,148 mins,PG-13,Marvel Studios,Action/Adventure/Science Fiction,Jon Watts,"Tom Holland, Tobey Maguire, Andrew Garfield, Marisa Tomei"
+11,Glass Onion: A Knives Out Mystery,2022,140 mins,PG-13,T-Street Productions,Crime/Comedy/Mystery,Rian Johnson,"Madelyn Cline, Daniel Craig, Kate Hudson, Edward Norton"
+12,Bullet Train,2022,126 mins,R,Columbia Pictures,Comedy/Action/Thriller,David Leitch,"Aaron-Taylor Johnson, Brad Pitt, Joey King, Bad Bunny"
+13,The King's Man,2021,131 mins,R,20th Century Fox,Adventure/Action/Thriller,Matthew Vaughn,"Stanley Tucci, Gemma Arterton, Ralph Fiennes, Harris Dickinson"
+14,Dune,2021,155 mins,PG-13,Legendary Pictures,Science Fiction/Adventure,Denis Villeneuve,"Timothee Chalamet, Rebecca Ferguson, Zendaya Coleman, Oscar Isaac"
+15,Death On The Nile,2022,127 mins,PG-13,20th Century Fox,Thriller/Crime/Mystery,Kenneth Branagh,"Kenneth Branagh, Armie Hammer, Gal Gadot, Annette Bening"
+16,Uncharted,2022,116 mins,PG-13,"Columbia Pictures, Playstation Productions",Adventure/Action,Ruben Fleischer,"Tom Holland, Sophia Ali, Mark Wahlberg, Tati Gabrielle"
+17,The Batman,2022,177 mins,PG-13,"Warner Bros Pictures, DC Films",Mystery/Thriller/Crime,Matt Reeves,"Robert Pattinson, Zoe Kravitz, Paul Dano, Colin Farrell"
+18,Avatar: The Way of Water,2022,192 mins,PG-13,"20th Century Fox, Lightstorm Entertainment",Science Fiction/Action/Adventure,James Cameron,"Sam Worthington, Zoe Saldana, Sigourney Weaver, Kate Winslet"
+19,Puss In Boots: The Last Wish,2022,103 mins,PG,"Dreamworks, Universal Pictures",Action/Adventure/Family/Comedy/Animation/Fantasy,Joel Crawford,"Antonio Banderas, Salma Hayek, Florence Pugh, Harvey Guillen"
+20,Sonic The Hedgehog 2,2022,123 mins,PG,"Paramount, Sega",Comedy/Adventure/Action/Family,Jeff Fowler,"Jim Carrey, Ben Schwartz, Tika Sumpter, James Marsden"
 ,,,,,,,,
 ,,,,,,,,
 ,,,,,,,,
@@ -19,64 +39,37 @@
 ,,,,,,,,
 ,,,,,,,,
 ,,,,,,,,
-1,Groundhog Day,1993,101 mins,PG,Columbia Pictures,Comedy/Fantasy/Romance/Drama,Harold Ramis,"Bill Murray, Andie MacDowell, Harold Ramis, Chris Elliott, Brian Doyle-Murray, Stephen Tobolowsky, Marita Geraghty"
-2,Judas and The Black Messiah,2021,126 mins,R,Warner Bros Pictures,Drama/History,Shaka King,"Daniel Kaluuya, LaKeith Stanfield, Dominique Fishback, Jesse Plemons, Khris Davis, Dominique Thorne, William O'Neal"
-3,Minari,2020,115 mins,PG-13,Plan B Entertainment,Drama,Lee Isaac Chung,"Steven Yeun, Han Ye-Ri, Youn Yuh-Jung, Alan S. Kim, Will Patton, Noel Cho, Esther Moon"
-4,Raya and The Last Dragon,2021,107 mins,PG,Walt Disney Pictures,Fantasy/Family/Animation/Adventure/Action,"Don Hall, Carlos Lopez Estrada","Awkwafina, Kelly Marie Tran, Gemma Chan, Daniel Dae Kim, Benedict Wong, Sandra Oh, Cassie Steele"
-5,The Father,2020,96 mins,PG-13,Sony Pictures Classics,Drama,Florian Zeller,"Anthony Hopkins, Olivia Colman, Imogen Poots, Olivia Williams, Rufus Sewell, Mark Gatiss, Evie Wray"
-6,The Courier,2020,112 mins,PG-13,"Lionsgate, Roadside Attractions",Drama/History/Thriller,Dominic Cooke,"Benedict Cumberbatch, Merab Ninidze, Rachel Brosnahan, Jessie Buckley, Keir Hillis, James Schofield, Angus Wright"
-7,Nobody,2021,92 mins,R,87North Productions,Thriller/Crime/Action,Ilya Naishuller,"Bob Odenkirk, Connie Nielsen, Christopher Lloyd, Aleksey Serebryakov, Michael Ironside, RZA, Humberly Gonzalez "
-8,Godzilla Vs. Kong,2021,114 mins,PG-13,Legendary Pictures,Action/Science Fiction/Thriller,Adam Wingard,"Alexander Skarsgard, Millie Bobby Brown, Julian Dennison, Kaylee Hottie, Rebecca Hall, Brian Tyree Henry, Eiza Gonzalez"
-9,Demon Slayer: Mugen Train,2020,117 mins,R,TOHO Animation,Fantasy/Action/Adventure/Animation/Thriller,Harou Sotozaki,"Tanjiro Kamado, Kyojuro Rengoku, Nezuko Kamado, Zenitsu Agatsuma, Akaza, Inosuke Hashibira, Enmu"
-10,A Quiet Place Part 2,2020,97 mins,PG-13,Paramount,Thriller/Science Fiction/Horror,John Krasinski,"Cillian Murphy, Emily Blunt, John Krasinski, Millicent Simmonds, Noah Jupe, Djimon Hounsou, Evangelina Cavoli"
-11,In The Heights,2021,143 mins,PG-13,5000 Broadway Productions,Drama/Romance,Jon M Chu,"Anthony Ramos, Lin-Manuel Miranda, Melissa Barrera, Stephanie Beatriz, Ariana Greenblatt, Christopher Jackson, Marc Anthony"
-12,Zola,2020,86 mins,R,Killer Films,Crime/Comedy,Janicza Bravo,"Taylour Paige, Riley Keough, Nicholas Braun, Colman Domingo, Jason Mitchell, Ari'el Stachel, Nelcie Souffrant"
-13,Jungle Cruise ,2021,127 mins,PG-13,Walt Disney Pictures,Fantasy/Adventure/Action,Jaume Collet-Serra,"Emily Blunt, Dwayne Johnson, Jack Whitehall, Jesse Plemons, Edgar Ramirez, Paul Giamatti, Veronica Falcon"
-14,The Green Knight,2021,130 mins,R,A24,Adventure/Fantasy/Drama,David Lowery,"Dev Patel, Alicia Vikander, Barry Keoghan, Erin Kellyman, Ralph Ineson, Sean Harris, Joel Edgerton"
-15,The Suicide Squad,2021,132 mins,R,"Warner Bros Pictures, DC Films",Comedy/Action/Adventure,James Gunn,"Margot Robbie, Daniela Melchoir, John Cena, Pete Davidson, Nathan Fillion, Idris Elba, David Dastmalchian"
-16,Free Guy,2021,115 mins,PG-13,20th Century Fox,Comedy/Science Fiction/Adventure,Shawn Levy,"Ryan Reynolds, Jodie Comer, Joe Keery,Taika Waititi, Aaron W. Reed, Dwayne Johnson, John Krasinski"
-17,Candyman,2021,91 mins,R,"Universal Pictures, Metro Goldwyn Pictures",Mystery/Thriller/Horror,Nia DeCosta,"Jordan Peele, Tony Todd, Yahya-Abdul-Mateen II, Teyonah Parris, Colman Domingo, Virginia Madsen, Vanessa Estelle Williams  "
-18,Malignant,2021,111 mins,R,New Line Cinema,Mystery/Thriller/Horror,James Wan,"Annabelle Wallis, Maddie Hasson, Mckenna Grace, George Young, Ingrid Bisu, Jake Abel, Marina Mazepa"
-19,No Time To Die,2021,163 mins,PG-13,Metro Goldwyn Mayer,Drama/Thriller/Action,Cary Joji Fukunaga,"Daniel Craig, Rami Malek, Lashana Lynch, Lea Seydoux, Naomie Harris, Ana De Armas, Ralph Fiennes"
-20,The Last Duel,2021,153 mins,R,20th Century Fox,Drama/Action/History,Ridley Scott,"Jodie Comer, Adam Driver, Matt Damon, Ben Affleck, Alex Lawther, Serena Kennedy, Caoimhe O'Malley"
-21,Dune,2021,155 mins,PG-13,Legendary Pictures,Science Fiction/Adventure,Denis Villeneuve,"Timothee Chalamet, Rebecca Ferguson, Zendaya, Oscar Isaac, Stellan Skarsgard, Jason Mamoa, Christopher Walken"
-22,Last Night In Soho,2021,117 mins,R,"Focus Features, Working Title films",Horror/Thriller/Mystery,Edgar Wright,"Anya Taylor Joy, Thomasin McKenzie, Matt Smith, Diana Rigg, Sam Claflin, Margaret Nolan, Jessie Mei Li"
-23,The French Dispatch,2021,108 mins,R,Fox Searchlight Pictures,Comedy/Drama,Wes Anderson,"Bill Murray, Timothee Chalamet, Tilda Swinton, Owen Wilson, Adrien Brody, Lea Seydoux, Saoirse Ronan"
-24,Spencer,2021,117 mins,R,FilmNation Entertainment,Drama,Pablo Larrain,"Kristen Stewart, Sally Hawkins, Jack Farthing, Timothy Spall, Amy Manson, Sean Harris, Stella Gonet"
-25,Ghostbusters: Afterlife,2021,124 mins,PG-13,Columbia Pictures,Fantasy/Comedy/Adventure,Jason Reitman,"Bill Murray, Dan Aykroyd, Mckenna Grace, Harold Ramis, Paul Rudd, Finn Wolfhard, Ernie Hudson"
-26,Encanto,2021,102 mins,PG,Walt Disney Pictures,Animation/Comedy/Family/Fantasy,"Byron Howard, Jared Bush","Stephanie Beatriz, Sarah-Nicole Robles, John Leguizamo, Wilmer Valderrama, Diane Guerrero, Maria Cecillia Botero, Jessica Darrow"
-27,Belfast,2021,98 mins,PG-13,Focus Features,Drama,Kenneth Branagh,"Jamie Dornan, Caitriona Balfe, Judi Dench, Jude Hill, Ciaran Hinds, Colin Morgan, Olive Tennant"
-28,West Side Story,2021,157 mins,PG-13,"20th Century Fox, Amblin Entertainment",Romance/Crime/Drama,Steven Spielberg,"Rachel Zegler, Ansel Elgort, Maddie Ziegler, Rita Moreno, Ariana DeBose, Mike Faist, Josh Andres Rivera"
-29,Spider-Man: No Way Home,2021,148 mins,PG-13,Marvel Studios,Action/Adventure/Science Fiction,Jon Watts,"Tom Holland, Zendaya, Tobey Maguire, Andrew Garfield, Marisa Tomei, Jacob Batalon, Willem Dafoe"
-30,Nightmare Alley,2021,150 mins,R,Fox Searchlight Pictures,Thriller/Drama/Crime,Guillermo Del Toro,"Patricia Rooney Mara, Bradley Cooper, Cate Blanchett, Toni Collette, Willem Dafoe, Paul Anderson, Tyrone Power"
-31,Licorice Pizza,2021,133 mins,R,"Metro Goldwyn Mayer, Focus Features",Comedy/Drama,Paul Thomas Anderson,"Alana Haim, Cooper Hoffman, Skyler Gisondo, Benny Safdie, George DiCaprio, Bradley Cooper, Tom Waits"
-32,The King's Man,2021,131 mins,R,20th Century Fox,Adventure/Action/Thriller,Matthew Vaughn,"Stanley Tucci, Gemma Arterton, Ralph Fiennes, Harris Dickinson, Rhys Ifans, Mark Strong, Aaron-Taylor Johnson"
-33,Scream,2022,114 mins,R,Paramount,Thriller/Horror/Mystery,"Matt Bettenelli-Olpin, Tyler Gillett","Jenna Ortega, Melissa Barrera, Mikey Madison, Neve Campbell, Dylan Minnette, Courtney Cox, Jack Quaid"
-34,Death On The Nile,2022,127 mins,PG-13,20th Century Fox,Thriller/Crime/Mystery,Kenneth Branagh,"Kenneth Branagh, Armie Hammer, Gal Gadot, Annette Bening, Tom Bateman, Letita Wright, Emma Mackey"
-35,Uncharted,2022,116 mins,PG-13,"Columbia Pictures, Playstation Productions",Adventure/Action,Ruben Fleischer,"Tom Holland, Sophia Ali, Mark Wahlberg, Tati Gabrielle, Rudy Pankow, Antonio Banderas, Alana Boden"
-36,The Batman,2022,177 mins,PG-13,"Warner Bros Pictures, DC Films",Mystery/Thriller/Crime,Matt Reeves,"Robert Pattinson, Zoe Kravitz, Paul Dano, Colin Farrell, Jeffrey Wright, Andy Serkis, John Turturro"
-37,X,2022,106 mins,R,A24,Horror/Mystery/Thriller,Ti West,"Mia Goth, Jenna Ortega, Brittany Snow, Stephen Ure, Kid Cudi, Martin Henderson, Owen Campbell"
-38,The Lost City,2022,112 mins,PG-13,Paramount,Action/Comedy/Adventure,"Adam Nee, Aaron Nee","Sandra Bullock, Channing Tatum, Daniel Radcliffe, Brad Pitt, Da'Vine Joy Randolph, Oscar Nunez, Patti Harrison"
-39,Sonic The Hedgehog 2,2022,123 mins,PG,"Paramount, Sega",Comedy/Adventure/Action/Family,Jeff Fowler,"Jim Carrey, Ben Schwartz, Tika Sumpter, James Marsden, Shemar Moore, Idris Elba, Colleen O'Shaughness"
-40,The Northman,2022,137 mins,R,"New Regency Pictures, Focus Features",Adventure/Action/Fantasy,Robert Eggers,"Alexander Skarsgard, Anya Taylor Joy, Bjork, Nicole Kidman, Claes Bang, Ethan Hawke, Willem Dafoe"
-41,Everything Everywhere All At Once,2022,140 mins,R,A24,Adventure/Action/Science Fiction,"Daniel Scheinert, Daniel, Kwan","Michelle Yeoh, Ke Huy Quan, Stephanie Hsu, Jamie Lee Curtis, James Hong, Jenny Slate, Harry Shum Jr."
-42,The Bad Guys,2022,100 mins,PG,Dreamworks,Animation/Family/Crime/Comedy/Action/Adventure,Pierre Perifel,"Sam Rockwell, Richard Ayoade, Anthony Ramos, Zazie Beetz, Awkwafina, Lilly Singh, Alex Borstein"
-43,Top Gun,1986,110 mins,PG,Paramount,Drama/Action/Romance,Tony Scott,"Tom Cruise, Val Kilmer, Kelly McGillis, Anthony Edwards, Meg Ryan, Tom Skerritt, Tim Robbins"
-44,Top Gun: Maverick,2022,131 mins,PG-13,"Paramount, Skydance",Drama/Action,Joseph Kosinski,"Tom Cruise, Miles Teller, Val Kilmer, Glen Powell, Jennifer Connelly, Monica Barbaro, Jon Hamm"
-45,The Bob's Burgers Movie,2022,102 mins,PG-13,20th Century Fox,Comedy/Music/Adventure/Animation,"Loren Bouchard, Bernard Derriman","Kristen Schaal, H. Jon Benjamin, Jenny Slate, Dan Mintz, Zach Galifianakis, Sam Seder, Nick Kroll"
-46,Where The Crawdads Sing,2022,126 mins,PG-13,"3000 Pictures, Hello Sunshine Productions",Romance/Drama/Mystery,Olivia Newman,"Daisy Edgar Jones, Taylor John Smith, Harris Dickinson, David Strathairn, Jojo Regina, Delia Owens, Garret Owens"
-47,Nope,2022,130 mins,R,Universal Pictures,Mystery/Science Fiction/Horror,Jordan Peele,"Daniel Kaluuya, Keke Palmer, Steven Yeun, Brandon Perea, Michael Wincott, Barbie Ferreira, Keith David"
-48,Marcel The Shell With Shoes On,2021,90 mins,PG,"Cinereach, Strongman",Comedy/Family/Drama/Animation,Dean Fleischer Camp,"Jenny Slate, Dean Fleischer Camp, Nathan Fielder, Isabella Rossellini, Rosa Salazar, Lesley Stahl, Thomas Mann"
-49,Bullet Train,2022,126 mins,R,Columbia Pictures,Comedy/Action/Thriller,David Leitch,"Aaron-Taylor Johnson, Brad Pitt, Joey King, Bad Bunny, Logan Lerman, David Leitch, Michael Shannon"
-50,Bodies Bodies Bodies,2022,94 mins,R,A24,Horror/Comedy/Mystery,Halina Reijn,"Rachel Sennott, Amandla Stenberg, Pete Davidson, Maria Bakalova, Chase Sui Wonders, Lee Pace, Myha'la Herrold"
-51,Jaws,1975,124 mins,PG,Universal Pictures,Thriller/Horror/Adventure,Steven Spielberg,"Roy Schneider, Richard Dreyfuss, Robert Shaw, Lorraine Gary, Murray Hamilton, Susan Backlinie, Jay Mello"
-52,Barbarian,2022,103 mins,R,"20th Century Fox, Hammerstone Studios",Thriller/Horror/Mystery,Zach Creggor,"Bill Skarsgard, Justin Long, Georgina Campbell, Zach Creggor, Matthew Patrick Davis, Richard Brake, Kate Bosworth"
-53,Pearl,2022,102 mins,R,A24,Drama/Horror/Thriller,Ti West,"Mia Goth, David Corensweet, Alistair Sewell, Matthew Sunderland, Tandi Wright, Amelia Reed, Emma Jenkins"
-54,Tar,2022,158 mins,R,Focus Features,Music/Drama,Todd Field,"Cate Blanchett, Nina Hoss, Noemie Merlant, Sophie Kauer, Mark Strong, Sydney Lemmon,Sylvia Flote"
-55,The Banshees of Inisherin,2022,114 mins,R,Fox Searchlight Pictures,Drama/Comedy,Martin McDonagh,"Colin Farrell, Barry Keoghan, Brendan Gleeson, Kerry Condon, Sheila Flitton, Gary Lydon, Pat Shortt"
-56,Glass Onion: A Knives Out Mystery,2022,140 mins,PG-13,T-Street Productions,Crime/Comedy/Mystery,Rian Johnson,"Madelyn Cline, Daniel Craig, Kate Hudson, Edward Norton, Janelle Monae, Dave Bautista, Natasha Lyonne"
-57,The Menu,2022,107 mins,R,Fox Searchlight Pictures,Thriller/Horror/Comedy,Mark Mylod,"Anya Taylor Joy, Ralph Fiennes, Nicholas Hoult, Janet McTeer, Hong Chau, John Leguizamo, Aimee Carrero"
-58,The Fabelmans,2022,151 mins,PG-13,Amblin Entertainment,Drama/Comedy,Steven Spielberg,"Michelle Williams, Paul Dano, Gabriel Labelle, Chloe East, David Lynch, Julia Butters, Judd Hirsch"
-59,Violent Night,2022,112 mins,R,Universal Pictures,Thriller/Comedy/Crime/Action,Tommy Wirkola,"David Harbour, Beverly D'Angelo, John Leguizamo, Cam Gigandet, Alex Hassell, Alexis Louder, Leah Brady"
-60,Avatar: The Way of Water,2022,192 mins,PG-13,"20th Century Fox, Lightstorm Entertainment",Science Fiction/Action/Adventure,James Cameron,"Sam Worthington, Zoe Saldana, Sigourney Weaver, Kate Winslet, Stephen Lang, Cliff Curtis, Britain Dalton"
-61,Puss In Boots: The Last Wish,2022,103 mins,PG,"Dreamworks, Universal Pictures",Action/Adventure/Family/Comedy/Animation/Fantasy,Joel Crawford,"Antonio Banderas, Salma Hayek, Florence Pugh, Harvey Guillen, Olivia Colman, John Mulaney, Wagner Moura"
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,

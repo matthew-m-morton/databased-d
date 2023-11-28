@@ -1,68 +1,67 @@
-director_id,dir_name
-1,Vince Gilligan
-2,Greg Garcia
-3,Dan Harmon
-4,Alex Hirsch
-5,Harold Ramis
-6,Shaka King
-7,Lee Isaac Chung
-8,Don Hall
-9,Carlos Lopez Estrada
-10,Florian Zeller
-11,Dominic Cooke
-12,Ilya Naishuller
-13,Adam Wingard
-14,Harou Sotozaki
-15,John Krasinski
-16,Jon M Chu
-17,Janicza Bravo
-18,Jaume Collet-Serra
-19,David Lowery
-20,James Gunn
-21,Shawn Levy
-22,Nia DeCosta
-23,James Wan
-24,Cary Joji Fukunaga
-25,Ridley Scott
-26,Denis Villeneuve
-27,Edgar Wright
-28,Wes Anderson
-29,Pablo Larrain
-30,Jason Reitman
-31,Byron Howard
-32,Jared Bush
-33,Kenneth Branagh
-34,Steven Spielberg
-35,Jon Watts
-36,Guillermo Del Toro
-37,Paul Thomas Anderson
-38,Matthew Vaughn
-39,Matt Bettenelli-Olpin
-40,Tyler Gillett
-41,Ruben Fleischer
-42,Matt Reeves
-43,Ti West
-44,Adam Nee
-45,Aaron Nee
-46,Jeff Fowler
-47,Robert Eggers
-48,Daniel Scheinert
-49,Daniel Kwan
-50,Pierre Perifel
-51,Tony Scott
-52,Joseph Kosinski
-53,Loren Bouchard
-54,Bernard Derriman
-55,Olivia Newman
-56,Jordan Peele
-57,Dean Fleischer Camp
-58,David Leitch
-59,Halina Reijn
-60,Zach Creggor
-61,Todd Field
-62,Martin McDonagh
-63,Rian Johnson
-64,Mark Mylod
-65,Tommy Wirkola
-66,James Cameron
-67,Joel Crawford
+director_id,first_name,last_name
+1,Vince,Gilligan
+2,Greg,Garcia
+3,Dan,Harmon
+4,Alex,Hirsch
+5,Harold,Ramis
+6,Shaka,King
+7,Lee Isaac,Chung
+8,Carlos,Lopez Estrada
+9,Florian,Zeller
+10,Dominic,Cooke
+11,Ilya,Naishuller
+12,Adam,Wingard
+13,Harou,Sotozaki
+14,John,Krasinski
+15,Jon M,Chu
+16,Janicza,Bravo
+17,Jaume,Collet-Serra
+18,David,Lowery
+19,James,Gunn
+20,Shawn,Levy
+21,Nia,DeCosta
+22,James,Wan
+23,Cary Joji,Fukunaga
+24,Ridley,Scott
+25,Denis,Villeneuve
+26,Edgar,Wright
+27,Wes,Anderson
+28,Pablo,Larrain
+29,Jason,Reitman
+30,Byron,Howard
+31,Jared,Bush
+32,Kenneth,Branagh
+33,Steven,Spielberg
+34,Jon,Watts
+35,Guillermo,Del Toro
+36,Paul,Anderson
+37,Matthew,Vaughn
+38,Matt,Bettenelli-Olpin
+39,Tyler,Gillett
+40,Ruben,Fleischer
+41,Matt,Reeves
+42,Ti,West
+43,Adam,Nee
+44,Aaron,Nee
+45,Jeff,Fowler
+46,Robert,Eggers
+47,Daniel,Scheinert
+48,Daniel,Kwan
+49,Pierre,Perifel
+50,Tony,Scott
+51,Joseph,Kosinski
+52,Loren,Bouchard
+53,Bernard,Derriman
+54,Olivia,Newman
+55,Jordan,Peele
+56,Dean,Fleischer Camp
+57,David,Leitch
+58,Halina,Reijn
+59,Zach,Creggor
+60,Todd,Field
+61,Martin,McDonagh
+62,Rian,Johnson
+63,Mark,Mylod
+64,Tommy,Wirkola
+65,James,Cameron
+66,Joel,Crawford
