@@ -26,7 +26,7 @@ actor_id,first_name,last_name
 25,Ryan,Reynolds
 26,Jodie,Comer
 27,Joe,Keery
-28,Taika,Waititi
+28,aika,Waititi
 29,Sam,Rockwell
 30,Richard,Ayoade
 31,Anthony,Ramos
@@ -37,8 +37,8 @@ actor_id,first_name,last_name
 36,Anthony,Edwards
 37,Miles,Teller
 38,Glen,Powell
-39,Daisy,Edgar Jones
-40,Taylor,John Smith
+39,Daisy Edgar,Jones
+40,Taylor John,Smith
 41,Harris,Dickinson
 42,David,Strathairn
 43,Roy,Schneider
@@ -53,20 +53,20 @@ actor_id,first_name,last_name
 52,David,Corensweet
 53,Alistair,Sewell
 54,Matthew,Sunderland
-55,Tobey,Maguire
-56,Andrew,Garfield
-57,Marisa,Tomei
-58,Madelyn,Cline
-59,Kate,Hudson
-60,Edward,Norton
-61,Aaron-Taylor,Johnson
-62,Brad,Pitt
-63,Joey,King
-64,Bad,Bunny
-65,Stanley,Tucci
-66,Gemma,Arterton
-67,Ralph,Fiennes
-68,Harris,Dickinson
+55,Tom,Holland
+56,Tobey,Maguire
+57,Andrew,Garfield
+58,Marisa,Tomei
+59,Madelyn,Cline
+60,Kate,Hudson
+61,Edward,Norton
+62,Aaron-Taylor,Johnson
+63,Brad,Pitt
+64,Joey,King
+65,Bad,Bunny
+66,Stanley,Tucci
+67,Gemma,Arterton
+68,Ralph,Fiennes
 69,Timothee,Chalamet
 70,Rebecca,Ferguson
 71,Zendaya,Coleman
@@ -83,13 +83,15 @@ actor_id,first_name,last_name
 82,Paul,Dano
 83,Colin,Farrell
 84,Sam,Worthington
-85,Sigourney,Weaver
-86,Kate,Winslet
-87,Antonio,Banderas
-88,Salma,Hayek
-89,Florence,Pugh
-90,Harvey,Guillen
-91,Jim,Carrey
-92,Ben,Schwartz
-93,Tika,Sumpter
-94,James,Marsden
+85,Zoe,Saldana
+86,Sigourney,Weaver
+87,Kate,Winslet
+88,Antonio,Banderas
+89,Salma,Hayek
+90,Florence,Pugh
+91,Harvey,Guillen
+92,Jim,Carrey
+93,Ben,Schwartz
+94,Tika,Sumpter
+95,James,Marsden
+ ,,
