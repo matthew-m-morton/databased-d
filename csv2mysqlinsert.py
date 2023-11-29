@@ -38,8 +38,8 @@ def escape_quotes(value):
     return re.sub(r"([\"'])", r"\\\1", value)
 
 # CSV file input
-csv_file = './csv_files/movie_studio.csv'
-table_name = 'series_cast'  # Replace with your table name
+csv_file = './csv_files/genre.csv'
+table_name = 'genre'  # Replace with your table name
 num_columns = 6  # Replace with the number of columns you want
 
 try:
@@ -52,13 +52,13 @@ try:
         
         # Print the initial part of the INSERT statement
         print(f"INSERT INTO {table_name}")
-        print(f"{column_names})")
+        print(f"{column_names}")
         print("VALUES")
         
         for row in csv_reader:
             # Filter out empty values, escape quotes, and build the VALUES part of the INSERT statement
             filtered_values = [f"'{escape_quotes(value)}'" if value != '' else 'NULL' for value in row[:num_columns]]
-            values = f"({', '.join(filtered_values)})"
+            values = f"({', '.join(filtered_values)}),"
             print(values)
             
 except Exception as e:
