@@ -591,6 +591,34 @@ VALUES
 ('94', 'Tika', 'Sumpter'),
 ('95', 'James', 'Marsden');
 
+-- POPULATE STUDIO TABLE
+
+INSERT INTO studio
+(studio_id, studio_name)
+VALUES
+('1', 'AMC'),
+('2', '20th Century Fox'),
+('3', 'Adult Swim'),
+('4', 'Disney Channel'),
+('5', 'Metro Goldwyn Mayer'),
+('6', 'Dreamworks'),
+('7', 'Paramount'),
+('8', 'Skydance'),
+('9', '3000 Pictures'),
+('10', 'Hello Sunshine Productions'),
+('11', 'Universal Pictures'),
+('12', 'Hammerstone Studios'),
+('13', 'A24'),
+('14', 'Marvel Studios'),
+('15', 'T-Street Productions'),
+('16', 'Columbia Pictures'),
+('17', 'Legendary Pictures'),
+('18', 'Playstation Productions'),
+('19', 'Warner Bros Pictures'),
+('20', 'DC Films'),
+('21', 'Lightstorm Entertainment'),
+('22', 'Sega');
+
 -- POPULATE DIRECTOR TABLE
 
 INSERT INTO director
@@ -1098,12 +1126,110 @@ VALUES
 
 -- POPULATE MOVIE_GENRE TABLE
 
+INSERT INTO movie_genre
+(movie_id, genre_id)
+VALUES
+('1', '1'),
+('1', '6'),
+('1', '13'),
+('2', '2'),
+('2', '4'),
+('2', '12'),
+('3', '1'),
+('3', '2'),
+('3', '3'),
+('3', '4'),
+('3', '5'),
+('3', '7'),
+('4', '1'),
+('4', '5'),
+('4', '6'),
+('5', '1'),
+('5', '6'),
+('6', '6'),
+('6', '10'),
+('6', '11'),
+('7', '2'),
+('7', '9'),
+('7', '13'),
+('8', '9'),
+('8', '10'),
+('8', '13'),
+('9', '6'),
+('9', '9'),
+('9', '13'),
+('10', '1'),
+('10', '2'),
+('10', '12'),
+('11', '4'),
+('11', '5'),
+('11', '10'),
+('12', '1'),
+('12', '4'),
+('12', '13'),
+('13', '1'),
+('13', '2'),
+('13', '13'),
+('14', '2'),
+('14', '12'),
+('15', '5'),
+('15', '10'),
+('15', '13'),
+('16', '1'),
+('16', '2'),
+('17', '5'),
+('17', '10'),
+('17', '13'),
+('18', '1'),
+('18', '2'),
+('18', '12'),
+('19', '1'),
+('19', '2'),
+('19', '3'),
+('19', '4'),
+('19', '7'),
+('19', '8'),
+('20', '1'),
+('20', '2'),
+('20', '4'),
+('20', '7');
 
 -- POPULATE MOVIE_HISTORY TABLE
 
 
 -- POPULATE MOVIE_STUDIO TABLE
 
+INSERT INTO movie_studio
+(movie_id, studio_id)
+VALUES
+('1', '5'),
+('2', '2'),
+('3', '6'),
+('4', '7'),
+('5', '7'),
+('5', '8'),
+('6', '9'),
+('6', '10'),
+('7', '11'),
+('8', '2'),
+('8', '12'),
+('9', '13'),
+('10', '14'),
+('11', '15'),
+('12', '16'),
+('13', '2'),
+('14', '17'),
+('15', '2'),
+('16', '16'),
+('16', '18'),
+('17', '19'),
+('17', '20'),
+('18', '2'),
+('18', '18'),
+('19', '6'),
+('19', '11'),
+('20', '7'),
+('20', '22');
 
 -- POPULATE PROFILE TABLE
 
@@ -1145,14 +1271,50 @@ VALUES
 
 -- POPULATE SERIES_DIRECTOR TABLE
 
+INSERT INTO series_director
+(series_id, director_id)
+VALUES
+('1', '3'),
+('2', '4'),
+('3', '1'),
+('4', '1'),
+('5', '2');
 
 -- POPULATE SERIES_GENRE TABLE
 
+INSERT INTO series_genre
+(series_id, genre_id)
+VALUES
+('1', '2'),
+('1', '3'),
+('1', '4'),
+('1', '12'),
+('2', '2'),
+('2', '3'),
+('2', '4'),
+('2', '10'),
+('3', '5'),
+('3', '6'),
+('3', '13'),
+('4', '4'),
+('4', '5'),
+('4', '6'),
+('5', '4');
 
 -- POPULATE SERIES_HISTORY TABLE
 
 
 -- POPULATE SERIES_STUDIO TABLE
 
+INSERT INTO series_studio
+(series_id, studio_id)
+VALUES
+('1', '3'),
+('2', '4'),
+('3', '1'),
+('4', '1'),
+('5', '2');
 
--- POPULATE STUDIO TABLE
+
+
+
