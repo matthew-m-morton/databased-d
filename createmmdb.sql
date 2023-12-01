@@ -489,7 +489,15 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
 -- INSERT STATEMENTS
 -- POPULATE ACCOUNT TABLE
-
+INSERT INTO account
+(account_id, username, password)
+VALUES
+('1', 'alpha', '123456'),
+('2', 'bravo', 'qwerty'),
+('3', 'charlie', 'asdfgh'),
+('4', 'delta', 'zxcvbn'),
+('5', 'echo', 'poiuyt'),
+('6', 'fox', 'lkjhgf');
 
 -- POPULATE ACTOR TABLE
 
