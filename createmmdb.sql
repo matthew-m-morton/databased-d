@@ -91,13 +91,12 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `mmdb`.`queue`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `mmdb`.`queue` ;
+DROP TABLE IF EXISTS `mmdb`.`queue`;
 
 CREATE TABLE IF NOT EXISTS `mmdb`.`queue` (
   `profile_id` INT NOT NULL,
-  `movie_id` INT NOT NULL,
-  `series_id` INT NOT NULL,
-  PRIMARY KEY (`profile_id`, `movie_id`, `series_id`),
+  `movie_id` INT NULL, 
+  `series_id` INT NULL, 
   INDEX `fk_queue_movie1_idx` (`movie_id` ASC) VISIBLE,
   INDEX `fk_queue_series1_idx` (`series_id` ASC) VISIBLE,
   CONSTRAINT `fk_queue_profile1`
@@ -114,8 +113,10 @@ CREATE TABLE IF NOT EXISTS `mmdb`.`queue` (
     FOREIGN KEY (`series_id`)
     REFERENCES `mmdb`.`series` (`series_id`)
     ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    ON UPDATE NO ACTION
+)
 ENGINE = InnoDB;
+
 
 
 -- -----------------------------------------------------
@@ -1012,6 +1013,60 @@ VALUES
 ('19', 'Puss In Boots: The Last Wish', '2022', '103', 'PG'),
 ('20', 'Sonic The Hedgehog 2', '2022', '123', 'PG');
 
+-- POPULATE PROFILE TABLE
+
+INSERT INTO profile
+(profile_id, account_id, profile_name)
+VALUES
+('1', '1', 'Emily'),
+('2', '1', 'James'),
+('3', '2', 'Sophia'),
+('4', '2', 'Liam'),
+('5', '3', 'Olivia'),
+('6', '4', 'Ethan'),
+('7', '4', 'Ava'),
+('8', '5', 'Noah'),
+('9', '6', 'Isabella'),
+('10', '6', 'Jackson');
+
+-- POPULATE QUEUE TABLE
+
+INSERT INTO queue
+(profile_id, movie_id, series_id)
+VALUES
+('1', NULL, '1'),
+('1', '5', NULL),
+('1', '6', NULL),
+('1', '14', NULL),
+('2', '5', NULL),
+('2', NULL, '3'),
+('3', NULL, '2'),
+('3', '5', NULL),
+('4', '17', NULL),
+('4', NULL, '4'),
+('5', NULL, '1'),
+('5', '14', NULL),
+('6', '4', NULL),
+('6', '5', NULL),
+('6', NULL, '4'),
+('7', '10', NULL),
+('7', '15', NULL),
+('7', '17', NULL),
+('7', NULL, '1'),
+('8', '19', NULL),
+('8', '15', NULL),
+('8', '20', NULL),
+('8', '3', NULL),
+('8', NULL, '2'),
+('9', '12', NULL),
+('9', NULL, '5'),
+('9', '5', NULL),
+('10', '4', NULL),
+('10', '5', NULL),
+('10', NULL, '1'),
+('10', '15', NULL),
+('10', '19', NULL);
+
 -- POPULATE MOVIE_CAST TABLE
 
 INSERT INTO movie_cast
@@ -1196,6 +1251,29 @@ VALUES
 
 -- POPULATE MOVIE_HISTORY TABLE
 
+INSERT INTO movie_history
+(watchhistory_id, profile_id, movie_id)
+VALUES
+('1', '1', '1'),
+('2', '1', '5'),
+('3', '1', '6'),
+('4', '1', '14'),
+('5', '6', '4'),
+('6', '6', '5'),
+('7', '6', '10'),
+('8', '7', '10'),
+('9', '7', '15'),
+('10', '7', '17'),
+('11', '7', '18'),
+('12', '8', '19'),
+('13', '8', '15'),
+('14', '8', '20'),
+('15', '8', '3'),
+('16', '10', '4'),
+('17', '10', '5'),
+('18', '10', '14'),
+('19', '10', '15'),
+('20', '10', '19');
 
 -- POPULATE MOVIE_STUDIO TABLE
 
@@ -1231,17 +1309,39 @@ VALUES
 ('20', '7'),
 ('20', '22');
 
--- POPULATE PROFILE TABLE
-
-
--- POPULATE QUEUE TABLE
-
 
 -- POPULATE REVIEW_SCORE_MOVIE TABLE
 
+INSERT INTO review_score_movie
+(review_score_movie_id, score, movie_id, profile_id)
+VALUES
+('1', '1', '1', '1'),
+('2', '5', '5', '1'),
+('3', '5', '6', '1'),
+('4', '2', '7', '1'),
+('5', '4', '8', '1'),
+('6', '5', '10', '1'),
+('7', '1', '14', '1'),
+('8', '2', '18', '1'),
+('9', '5', '5', '8'),
+('10', '2', '15', '8'),
+('11', '4', '20', '8'),
+('12', '3', '3', '8'),
+('13', '2', '4', '10'),
+('14', '3', '5', '10'),
+('15', '5', '10', '10');
 
 -- POPULATE REVIEW_SCORE_SERIES TABLE
 
+INSERT INTO review_score_series
+(review_score_series_id, score, series_id, profile_id)
+VALUES
+('1', '5', '1', '1'),
+('2', '5', '2', '1'),
+('3', '3', '3', '3'),
+('4', '5', '1', '3'),
+('5', '2', '3', '5'),
+('6', '4', '5', '9');
 
 -- POPULATE SERIES_CAST TABLE
 
@@ -1302,7 +1402,55 @@ VALUES
 ('5', '4');
 
 -- POPULATE SERIES_HISTORY TABLE
-
+INSERT INTO series_history
+(profile_id, episodes_id, series_id)
+VALUES
+('1', '1', '1'),
+('1', '2', '1'),
+('1', '3', '1'),
+('1', '4', '1'),
+('1', '5', '1'),
+('2', '93', '3'),
+('2', '94', '3'),
+('2', '95', '3'),
+('2', '96', '3'),
+('2', '52', '2'),
+('2', '53', '2'),
+('3', '206', '5'),
+('3', '207', '5'),
+('3', '208', '5'),
+('3', '209', '5'),
+('3', '210', '5'),
+('4', '155', '4'),
+('4', '156', '4'),
+('4', '157', '4'),
+('4', '158', '4'),
+('4', '159', '4'),
+('5', '1', '1'),
+('5', '2', '1'),
+('5', '3', '1'),
+('5', '4', '1'),
+('5', '5', '1'),
+('6', '155', '4'),
+('6', '156', '4'),
+('6', '157', '4'),
+('6', '158', '4'),
+('6', '159', '4'),
+('6', '160', '4'),
+('6', '161', '4'),
+('9', '206', '5'),
+('9', '207', '5'),
+('9', '208', '5'),
+('9', '209', '5'),
+('9', '210', '5'),
+('9', '211', '5'),
+('9', '212', '5'),
+('9', '213', '5'),
+('9', '214', '5'),
+('9', '215', '5'),
+('9', '216', '5'),
+('9', '217', '5'),
+('9', '218', '5');
 
 -- POPULATE SERIES_STUDIO TABLE
 

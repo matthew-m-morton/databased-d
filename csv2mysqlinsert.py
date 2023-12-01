@@ -38,8 +38,8 @@ def escape_quotes(value):
     return re.sub(r"([\"'])", r"\\\1", value)
 
 # CSV file input
-csv_file = './csv_files/movie_studio.csv'
-table_name = 'movie_studio'  # Replace with your table name
+csv_file = './csv_files/review_score_series.csv'
+table_name = 'review_score_series'  # Replace with your table name
 num_columns = 6  # Replace with the number of columns you want
 
 try:
