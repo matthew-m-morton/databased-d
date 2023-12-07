@@ -1,0 +1,100 @@
+Account to Profile: One to Many
+
+
+Profile to Movie History: One to Many
+
+Profile to Review Scores Movie: One to Many
+
+Profile to Queue: One to Many
+
+Profile to Review Scores Series: One to Many
+
+Profile to Series History: One to Many
+
+
+Movie to Movie History: One to Many
+
+Movie to Review Scores Movie: One to Many
+
+Movie to Queue: One to Many
+
+Movie to Movie Studio: One to Many
+
+Movie to Movie Genre: One to Many
+
+Movie to Movie Director: One to Many
+
+Movie to Movie Cast: One to Many
+
+
+Series to Review Scores Series: One to Many
+
+Series to Series History: One to Many
+
+Series to Episodes: One to Many
+
+Series to Queue: One to Many
+
+Series to Series Studio: One to Many
+
+Series to Series Genre: One to Many
+
+Series to Series Director: One to Many
+
+Series to Series Cast: One to Many
+
+
+Studio to Movie Studio: One to Many
+
+Studio to Series Studio: One to Many 
+
+
+Genre to Movie Genre: One to Many
+
+Genre to Series Genre: One to Many
+
+
+Director to Movie Director: One to Many
+
+Director to Series Director: One to Many
+
+
+Actor to Movie Cast: One to Many
+
+Actor to Series Cast: One to Many
+
+
+Episodes to Series History:One to Many
+
+
+Explanations:
+ 
+Account: 
+Account is a table that stores all the account information required to let users to log in.
+
+Profile:
+The profile table is under the account table letting one account have many user profiles.
+
+Movies:
+The movie table stores all the data about movies in the database. This is the total list of all movies available. 
+
+Series:
+The series table stores all the data about movies in the database. This is the total list of all tv series available. 
+
+Studio:
+Our Studio table holds all the production studio information.
+
+Series History: 
+This table differs from the Movies History table because both individual series will appear here along with the specific episodes you have already watched.
+
+Review Scores Movie and Review Scores Series:
+This table will hold rating information about individual movies and series based on what the user inputs. 
+
+Queue: 
+The queue, table is a space where you can put movies you want to watch or have watched. It is a personal playlist for each profile. 
+
+
+
+
+
+
